@@ -18,7 +18,6 @@ SPLIT_RATIO = 0.9
 BATCH_SIZE = 512
 HIDDEN_DIM = 32
 N_LAYERS = 2
-DROPOUT = 0.5
 
 ID = data.Field()
 TEXT = data.Field(tokenize='spacy')
