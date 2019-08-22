@@ -1,17 +1,8 @@
-import os
-import sys
 import torch
 import torch.nn as nn
-from torch.autograd import Variable
 from torch.nn import functional as F
-import numpy as np
 from torchtext import data, vocab
-from torchtext import datasets
-from torchtext.vocab import Vectors, GloVe
-import numpy as np
-import pandas as pd
 import random
-import time
 import torch.optim as optim
 
 SEED = 1234
